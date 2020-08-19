@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="loader hid">
+        <div class="loading">
+          <img src="img.png" alt="">
+    
+        </div>
+      </div>
+<header>
+    <h1>Mecze FC Barcelony na przestrzeni lat</h1>
+    <input type="text" name="" id="setYear" placeholder="Podaj sezon. Np: 2018-19">
+    <button class="getDataBtn">Wyszukaj sezon</button>
+</header>
+<main>
+    <section id="posts"></section>
+
+    <template id="post-template">
+        <div class="post">
+            <h3 class="post__number"></h3>
+            <h4 class="post__date"></h4>
+            <p class="post__team1"></p>
+            <p class="post__team2"></p>
+            <p class="post__score"></p>
+
+        </div>
+    </template>
+</main>
+    <script src="jsontest.js"></script>
+</body>
+</html>

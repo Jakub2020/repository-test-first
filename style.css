@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    zoom: 1.02;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+
+#nav-bar{
+    top:0;
+    z-index: 10;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.navbar-nav{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color:black !important;
+    font-weight: 600;
+    font-size: 20px;;
+    float:right;
+
+}
+
+.fa-bars{
+    color:black;
+    font-size: 50px !important;
+}
+
+/*--------------------------banner section--------------------------*/
+
+#banner, #banner3{
+    padding-top:5%;
+
+}
+
+#banner{
+    margin-top: -30px;
+}
+
+.promo-title{
+    font-size:65px;
+    font-weight:900;
+    margin-top:auto;
+    margin-bottom: auto;
+    font-style: italic;
+}
+
+.messi img{height:500px;}
+
+
+
+.wave{
+    margin-top: -10px;
+}
+
+
+/*--------------------------PeopleBanner section--------------------------*/
+
+
+
+.cont2{
+    background-color: black;
+    color:white;
+    font-size: 50px;
+}
+
+#peopleBanner{
+    background-color: black;
+}
+
+.harden img{height:300px;}
+.harden2 img
+{
+    height:100px;
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.harden-title{
+    font-size:50px;
+    font-weight:900;
+    font-style: italic;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+
+
+
+
+/*-------------------------------------mundialBanner------------------------------------------*/
+
+
+#mundialBanner
+{
+    background-color: black;
+}
+
+.mundial img
+{
+        height: 450px;
+
+}
+
+@media (max-width: 720px) {
+    .mundial img {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+.iframeDiv
+{
+    display: block;
+    margin: 0 auto;
+    height:280px;
+}
+
+
+/*-------------------------------------------bannerShoes---------------------------------------------*/
+
+
+/*-------------------------------------------bannerMore---------------------------------------------*/
+
+#bannerMore{
+    background-color: black;
+}
+
+.social-icons img{
+    width:50px;
+    transition: 0.5s;
+}
+
+.social-icons p{
+    font-size: 20px;
+}
+.social-icons a:hover img{
+    transform: translateY(-15px);
+}
+
+.contMore{
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+
+.a{
+
+    border-right: 2px solid red;
+}
+
+@media (max-width: 765px) {
+    .a {
+        border-right: none;
+
+        height: 250px;
+        width:100%;
+    }
+    .contMore{
+        background-color: black;
+        color:white;
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    .conta p.l{
+        margin-top: 30px;
+    }
+
+    .conta p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.contMore .conta p{
+    font-size:20px;
+}
+
+.contMore .pSocial{
+margin-top: 15px;
+}
+
+.logo3{
+    margin-top: 25px;
+}
+
+.logo3 img{
+    height: 150px;
+}
+
+.logo3 img.b{
+    height: 50px;
+}
+
